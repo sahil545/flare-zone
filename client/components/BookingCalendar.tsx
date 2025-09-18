@@ -297,7 +297,7 @@ export function BookingCalendar() {
             setBookings({});
             setIsConnected(true);
             setBookingsAvailable(false);
-            setError("No bookings found for this range.");
+            setError("No bookings found for this rangevsss.");
           }
         } else if (viewMode === "availability") {
           const avail = await wooCommerceService.getAvailabilityBlocks({
@@ -914,7 +914,7 @@ export function BookingCalendar() {
               !isLoading &&
               Object.keys(bookings).length === 0 && (
                 <div className="mb-3 p-2 text-sm bg-amber-50 text-amber-800 rounded">
-                  {error || "No bookings found for this range."}
+                  {error || "No bookings found for this range fff."}
                 </div>
               )}
             <div className="grid grid-cols-7 gap-px bg-gray-200 rounded-lg overflow-hidden">
